@@ -1549,7 +1549,7 @@
     
     
     .faq-section {
-        width: 90%; height: 900px; top: 200px; position: relative; display: flex; justify-content: center; align-items: center;
+        width: 90%; height: 950px; top: 200px; position: relative; display: flex; justify-content: center; align-items: center;
     }
     .faq-section .text1 {
         margin-left: 30%; margin-right: 30%; width: 40%; top: 0px; position: absolute; color: black; font-size: 32px; font-family: Inter; font-weight: 700; word-wrap: break-word; text-align: center;
