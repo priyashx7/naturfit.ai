@@ -1467,7 +1467,7 @@
         top: 0px; text-align: center; position: absolute; color: black; font-size: 30px; font-family: Inter; font-weight: 700; word-wrap: break-word;
     }
     .solution-section .text2 {
-        width: 100%; text-align: justify; top: 104px; position: absolute; color: rgba(0, 0, 0, 0.8); font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word;
+        width: 100%; text-align: justify; top: 104px; position: absolute; color: rgba(0, 0, 0, 0.8); font-size: 14px; font-family: Inter; font-weight: 400; word-wrap: break-word;
     }
     .saying1 {
         width: 90%; height: 150px; margin-left: 0%; margin-right: 0%; top: 550px; position: absolute; border-radius: 10px;
@@ -1487,25 +1487,25 @@
         width: 90%; margin-left: 0%; margin-right: 0%; top: 50px; text-align: center; position: absolute; color: black; font-size: 26px; font-family: Inter; font-weight: 700; word-wrap: break-word;
     }
     .company-section .text2 {
-        width: 90%; margin-left: 5%; margin-right: 5%; top: 370px; position: absolute; color: black; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word; text-align: justify;
+        width: 90%; margin-left: 5%; margin-right: 5%; top: 370px; position: absolute; color: black; font-size: 14px; font-family: Inter; font-weight: 400; word-wrap: break-word; text-align: justify;
     }
     .effective {
         width: 41%; height: 140px; margin-left: 6%; margin-right: 53%; top: 500px; position: absolute;
     }
     .effective .text1 {
-        width: 100%; top: 0px; text-align: center; position: absolute; color: black; font-size: 16px; font-family: Inter; font-weight: 700; word-wrap: break-word;
+        width: 100%; top: 0px; text-align: center; position: absolute; color: black; font-size: 14px; font-family: Inter; font-weight: 700; word-wrap: break-word;
     }
     .effective .text2 {
-        width: 100%; top: 40px; text-align: justify; position: absolute; color: black; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word;
+        width: 100%; top: 40px; text-align: justify; position: absolute; color: black; font-size: 14px; font-family: Inter; font-weight: 400; word-wrap: break-word;
     }
     .empowering {
         width: 41%; height: 140px; margin-left: 53%; margin-right: 6%; top: 500px; position: absolute;
     }
     .empowering .text1 {
-        width: 100%; top: 0px; text-align: center; position: absolute; color: black; font-size: 16px; font-family: Inter; font-weight: 700; word-wrap: break-word;
+        width: 100%; top: 0px; text-align: center; position: absolute; color: black; font-size: 14px; font-family: Inter; font-weight: 700; word-wrap: break-word;
     }
     .empowering .text2 {
-        width: 100%; top: 36px; text-align: justify; position: absolute; color: black; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word;
+        width: 100%; top: 36px; text-align: justify; position: absolute; color: black; font-size: 14px; font-family: Inter; font-weight: 400; word-wrap: break-word;
     }
     .company-section .logo {
         width: 80%; height: 20%; margin-left: 0%; margin-right: 0%; top: 150px; position: absolute;
@@ -1555,7 +1555,7 @@
         margin-left: 30%; margin-right: 30%; width: 40%; top: 0px; position: absolute; color: black; font-size: 32px; font-family: Inter; font-weight: 700; word-wrap: break-word; text-align: center;
     }
     .faq-section .text2 {
-        margin-left: 0%; margin-right: 0%; width: 90%; left: 0px; top: 850px; position: absolute; text-align: justify; color: black; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word; text-align: center;
+        margin-left: 0%; margin-right: 0%; width: 90%; left: 0px; top: 850px; position: absolute; text-align: justify; color: black; font-size: 14px; font-family: Inter; font-weight: 400; word-wrap: break-word; text-align: center;
     }
     
     .faq-content {
@@ -1568,10 +1568,10 @@
         width: 100%; height: 0px; top: 0px; position: absolute; border: 1px rgba(0, 0, 0, 0.50) solid;
     }
     .faq-content .question {
-        width:96%; left: 2%; top: 20px; text-align: justify; position: absolute; color: black; font-size: 16px; font-family: Inter; font-weight: 700; word-wrap: break-word;
+        width:96%; left: 2%; top: 20px; text-align: justify; position: absolute; color: black; font-size: 14px; font-family: Inter; font-weight: 700; word-wrap: break-word;
     }
     .faq-content .answer {
-        width:96%; left: 2%; top: 60px; text-align: justify; position: absolute; color: rgba(0, 0, 0, 0.7); font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word;
+        width:96%; left: 2%; top: 60px; text-align: justify; position: absolute; color: rgba(0, 0, 0, 0.7); font-size: 14px; font-family: Inter; font-weight: 400; word-wrap: break-word;
     }
     .question2-content {
         width: 100%; height: 120px; top: 160px; position: absolute;
