@@ -1555,7 +1555,7 @@
         margin-left: 30%; margin-right: 30%; width: 40%; top: 0px; position: absolute; color: black; font-size: 32px; font-family: Inter; font-weight: 700; word-wrap: break-word; text-align: center;
     }
     .faq-section .text2 {
-        margin-left: 0%; margin-right: 0%; width: 90%; left: 0px; top: 840px; position: absolute; text-align: justify; color: black; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word; text-align: center;
+        margin-left: 0%; margin-right: 0%; width: 90%; left: 0px; top: 850px; position: absolute; text-align: justify; color: black; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word; text-align: center;
     }
     
     .faq-content {
@@ -1594,7 +1594,7 @@
         height: 49px;
         margin-left: 0%;
         margin-right: 0%;
-        top: 890px;
+        top: 900px;
         position: absolute;
         background: white;
         border: 1px black solid;
