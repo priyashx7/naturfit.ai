@@ -1267,7 +1267,7 @@
     
     
     .about-section {
-        width: 90%; height: 1500px; top: 50px; position: relative; display: flex; justify-content: center; align-items: center;
+        width: 90%; height: 1530px; top: 50px; position: relative; display: flex; justify-content: center; align-items: center;
     }
     .about-section .text1 {
         width: 90%; height: 88px; margin-right: 0%; top: 0px; position: absolute; text-align: center; color: black; 
@@ -1290,7 +1290,7 @@
     
     
     .stat1 {
-        width: 60%; height: 280.01px; top: 770px; position: absolute; display: flex; justify-content: center;
+        width: 60%; height: 280.01px; top: 800px; position: absolute; display: flex; justify-content: center;
     }
     .stat1-img {
         width: 100%; height: 200px; top: 0px; position: absolute;
@@ -1325,7 +1325,7 @@
     
     
     .stat2 {
-        width: 45%; height: 228.42px; margin-right: 55%; top: 1080px; position: absolute; display: flex; justify-content: center;
+        width: 45%; height: 228.42px; margin-right: 55%; top: 1110px; position: absolute; display: flex; justify-content: center;
     }
     .stat2-img {
         width: 100%; height: 140px; top: 0px; position: absolute;
@@ -1350,7 +1350,7 @@
     
     
     .stat3 {
-        width: 45%; height: 225.38px; margin-left: 55%; margin-right: 0%; top: 1080px; position: absolute; display: flex; justify-content: center;
+        width: 45%; height: 225.38px; margin-left: 55%; margin-right: 0%; top: 1110px; position: absolute; display: flex; justify-content: center;
     }
     .stat3-img {
         width: 100%; height: 140px; top: 0px; position: absolute;
@@ -1375,7 +1375,7 @@
     
     
     .stat4 {
-        width: 45%; height: 225.19px;  margin-left: 0%; margin-right: 55%; top: 1350px; position: absolute; display: flex; justify-content: center;
+        width: 45%; height: 225.19px;  margin-left: 0%; margin-right: 55%; top: 1380px; position: absolute; display: flex; justify-content: center;
     }
     .stat4-img {
         width: 100%; height: 140px; top: 0px; position: absolute;
@@ -1399,7 +1399,7 @@
     
     
     .stat5 {
-        width: 45%; height: 226.88px; margin-left: 55%; top: 1350px; position: absolute; display: flex; justify-content: center;
+        width: 45%; height: 226.88px; margin-left: 55%; top: 1380px; position: absolute; display: flex; justify-content: center;
     }
     .stat5-img {
         width: 100%; height: 140px; top: 0px; position: absolute;
