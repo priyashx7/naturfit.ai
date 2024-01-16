@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>NaturFit.ai: Helping Indian stay Healthy & Fit with zero cost natural remedies</title>
+    <link rel="icon" type="image/png" href="images/favicon.png"> <!--this is for the favicon image coming on the tab-->
+</head>
+<body>
+    <div style="width: 100%; height: 100%; position: relative; background: white; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+        
+        <!--for overlay of page so that content will load and then page will be visible-->
+        <div id="loading-overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: white; z-index: 1000;"></div>
+           
+        <!--nav bar section-->
+        <div class="navbar">
+            
+            
+            <img class=logo  loading="lazy" src="images/NaturFit.ai logo.png" />
+
+            <!--this is for the mobile view-->
+            <button class="hamburger-menu">☰</button>
+            <div class="nav-links">
+                <!-- Navigation Links Here and i have to see its working separately-->
+                <a href=#about>About</a>
+                <a href=#feature>Features</a>
+                <a href=#company>Company</a>
+                <a href=#faq>FAQ</a>
+                <a href="#connect">Connect With Us</a>
+            </div>
+            
+            
+            <!--right nav on navbar-->
+            <div class="right-nav">
+                <div class="nav-text"><a href=#about>About</a></div>
+                <div class="nav-text"><a href=#feature>Features</a></div>
+                <div class="nav-text"><a href=#company>Company</a></div>
+                <div class="nav-text"><a href=#faq>FAQ</a></div>
+                <div class="nav-text"><a href=#connect>Connect with Us</a></div>
+                <a href="https://forms.gle/Pz744c4tSBX7rjBT9" target="_blank" class="join-btn1">Join Wait List</a>
+                
+            </div>
+        </div>
+        <!--hero section-->
+        <div class="hero-section">
+            <img class="cover" loading="lazy" src="images/cover.jpg" />
+            <img class="mobile-cover" loading="lazy" src="images/cover2mobile.jpg">
+            <div class="cover-text"><span class="text1">Stay Healthy & Fit With <br/></span><span class="text2">Zero Cost</span><span class="text1"> Natural <br/>Remedies</span></div>
+            <a href=#solution class="learn-btn">Learn More</a>
+            <a href="https://forms.gle/Pz744c4tSBX7rjBT9" target="_blank" class="join-btn2">Join Wait List</a>
+        </div>
+        <!--problem section-->
+        <div id="about" class="about-section">
+            <div class="text1">Do you feel like you are healthy enough to prevent any disease?</div>
+            <div class="text2"><span class="text2s1">If yes, then you are mistaken like 93% of Indians. We all used to believe that we couldn't get rid of any disease because we didn't have any issue with our current way of living. But the reality is different. <br/><br/>In India, around </span><span class="text2s2">74%</span><span class="text2s1"> (6 million) of the total annual deaths occur because of NCDs, which mainly include Cardiovascular diseases, Cancers, Chronic respiratory diseases, and Diabetes. The chances of getting these diseases depend entirely on your lifestyle. You can't rely solely on Allopathic medicines to reduce the risk; in fact, Allopathic medicine often can't cure your disease permanently. It only provides instant relief. <br/><br/>According to a study, the average annual cost of treating an NCD patient with Allopathic medicine in India could rise to </span><span class="text2s2">₹36,520</span><span class="text2s1"> by 2030. This translates to a lifetime cost of </span><span class="text2s2">₹7,30,400</span><span class="text2s1"> to </span><span class="text2s2">₹14,60,800</span><span class="text2s1"> for a typical lifespan of 20-40 years.</span></div>
+            <img class="problem-img" loading="lazy" src="images/problem-intro.jpeg" />
+            <div class="stat1">
+                <img class="stat1-img" loading="lazy" src="images/74.png" />
+                <div class="data1">
+                    <div class="stat-text1"><span class="s1">Total Deaths because of </span><span class="s2">NCD</span><span class="s1"> in <br/>India (6 million)</span></div>
+                    <div class="stat-text2">Total Annual deaths in India</div>
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                </div>
+            </div>
+            <div class="stat2">
+                <img class="stat2-img" loading="lazy" src="images/17.png" />
+                <div class="data2">
+                    <div class="stat-text1"><span class="s1">Total Deaths because of </span><span class="s2">Chronic</span><span class="s1"> respiratory diseases in India (1 million)</span></div>
+                    <div class="stat-text2">Total Annual deaths in India</div>
+                    <div class="box1" ></div>
+                    <div class="box2"></div>
+                </div>
+            </div>
+            <div class="stat3">
+                <img class="stat3-img" loading="lazy" src="images/20.png" />
+                <div class="data3">
+                    <div class="stat-text1"><span class="s1">Total Deaths because of </span><span class="s2">Cancers</span><span class="s1"> in<br/>India (1.2 million)</span></div>
+                    <div class="stat-text2">Total Annual deaths in India</div>
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                </div>
+            </div>
+            <div class="stat4">
+                <img class="stat4-img" loading="lazy" src="images/47.png" />
+                <div class="data4">
+                    <div class="stat-text1"><span class="s1">Total Deaths because of </span><span class="s2">Cardiovascular</span><span class="s1"> Diseases in India (2.8 million)</span></div>
+                    <div class="stat-text2">Total Annual deaths in India</div>
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                </div>
+            </div>
+            <div class="stat5">
+                <img class="stat5-img" loading="lazy" src="images/6.png" />
+                <div class="data5">
+                    <div class="stat-text1"><span class="s1">Total Deaths because of </span><span class="s2">Diabetes</span><span class="s1"> in <br/>India (0.4 million)</span></div>
+                    <div class="stat-text2">Total Annual deaths in India</div>
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                </div>
+            </div>
+        </div>
+        <!-- health gallery section-->
+        <div class="gallery-section">
+            <div class="text1">Health Issues</div>
+            <div class="text2">These are just a small, there are many people suffering from endless health & fitness issues and don't know how to treat them.</div>
+            <div id="gallery-container">
+                <div class="image-row">
+                    <div class="image-set">
+                        <img  loading="lazy" src="images/sick.jpeg" />
+                        <img  loading="lazy" src="images/complete gastrial.jpg" />
+                        <img  loading="lazy" src="images/backpain.jpg" />
+                        <img  loading="lazy" src="images/knee-pain.jpeg" />
+                        <img  loading="lazy" src="images/stress.jpg" />
+                    </div>
+                </div>
+                <div class="image-row">
+                    <div class="image-set">
+                        <img  loading="lazy" src="images/heart-attack.jpeg" />
+                        <img  loading="lazy" src="images/asthama.jpg" />
+                        <img  loading="lazy" src="images/gastrial.jpeg" />
+                        <img  loading="lazy" src="images/neckpain.jpeg" />
+                        <img  loading="lazy" src="images/shoulder-pain.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--solution section-->
+        <div id="solution" class="solution-section">
+            <div class="text1">Unlocking Nature's Secrets for Better Health</div>
+            <div class="text2">Solution? Absolutely, we have the answer.
+                <br/>
+                <br/>Our nature has already equipped us with a wide array of natural methods to not only cure, but also prevent diseases. These natural methods are effective in promoting health and come at zero cost. Even at home, we have a range of medicines that can help eliminate diseases without any adverse effects on the body, unlike Allopathic medicines. According to statistics, individuals who utilize these natural methods have a 30% lower risk of developing chronic diseases such as heart disease, stroke, and diabetes. In fact, 90% of heart disease and 3 out of 10 premature deaths can be prevented.
+                <br/>
+                <br/>The Covid19 pandemic may have caused concern about future diseases, but they can all be prevented if we embrace natural treatments alongside Allopathic methods. This way, in emergencies, Allopathic treatment is readily available, while natural methods provide long-term solutions. Even minor health issues can be promptly addressed without any adverse effects.</div>
+            <img class="saying1" loading="lazy" src="images/hippocrates.jpeg">    
+            <img class="saying2" loading="lazy" src="images/yogananda.jpeg">    
+            <img class="saying3" loading="lazy" src="images/paracelsus.jpeg">    
+        </div>
+        <!--company section-->
+        <div id="company" class="company-section">
+            <div class="text1">Discover the Power of Natural Remedial Solutions for Optimal Health with Us!</div>
+            <div class="text2">At our company, we offer a range of natural remedial solutions to help you achieve and maintain optimal health. Our solutions are backed by scientific research and are completely free of cost solutions with no side affects.</div>
+            <div class="effective">
+                <div class="text1">Effective Solutions</div>
+                <div class="text2">With us you will get help in curing your long running chronic disease & other state of un-healthiness in which we have to avoid the allopathic medicines, without spending any money.</div>
+            </div>
+            <div class="empowering">
+                <div class="text1">Empowering Change</div>
+                <div class="text2">Our holistic approach focuses on addressing the root cause of health issues for long-lasting results. All are based on curing, prevention and growth of your body.</div>
+            </div>
+            <img class="logo" loading="lazy" src="images/company.png" />
+        </div>
+        <!--feature section-->
+        <div id="feature" class="feature-section">
+            <div class="text">Features of our platform</div>
+            <div class="feature1">
+                <img class="feature-img" loading="lazy" src="images/ai_assistant.png" />
+                <div class="text1">Personalized AI Health Assistant</div>
+                <div class="text2">This will help you to get the natural home remedial solution for your every health related issue. Also helps in solving your every query related to health.</div>
+            </div>
+            <div class="feature2">
+                <img class="feature-img" loading="lazy" src="images/workout.png" />
+                <div class="text1">Personalized Workout Plan</div>
+                <div class="text2">Get the suggested workout plan based on natural ways such as Yoga & light weight calisthenics and then based on your choice or compatibility select your own workouts.</div>
+            </div>
+            <div class="feature3">
+                <img class="feature-img" loading="lazy" src="images/diet.png" />
+                <div class="text1">Personalized Dietary Plan</div>
+                <div class="text2">Get the suggested Dietary plan based on the natural ingredients or food item and then based on your choice or compatibility select your own dish to include in your Dietary Plan.</div>
+            </div>
+            <div class="feature4">
+                <img class="feature-img" loading="lazy" src="images/recipe.png" />
+                <div class="text1">Recipe & Workout Guide</div>
+                <div class="text2">Get the curated video or text based guidance for performing or making any workout & recipe respectively.</div>
+            </div>
+            <div class="feature5">
+                <img class="feature-img" loading="lazy" src="images/document.png" />
+                <div class="text1">Document Manager</div>
+                <div class="text2">One place for your all medical documents, bills and reports to make your insurance claim easy.</div>
+            </div>
+        </div>
+        <!--FAQ section-->
+        <div id="faq" class="faq-section" >
+            <div class="text1">FAQ</div>
+            <div class="text2">Find answers to common questions about natural remedies and our services.</div>          
+            <div class="faq-content">
+                <div class="question1-content">
+                    <div class="top-line"></div>
+                    <div class="question">How do natural remedies work?</div>
+                    <div class="answer">Natural remedies work by harnessing the healing properties of plants, herbs, and other natural substances to promote health and well-being. They actually work on three aspects of curing, prevention and promotion of health.</div>
+                </div>
+                <div class="question2-content">
+                    <div class="top-line"></div>
+                    <div class="question">Are natural remedies safe?</div>
+                    <div class="answer">Yes, when used correctly, natural remedies are generally safe and have no side effects compared to synthetic medications if taken with care.</div>
+                </div>
+                <div class="question3-content">
+                    <div class="top-line"></div>
+                    <div class="question">Can natural remedies cure diseases?</div>
+                    <div class="answer">While natural remedies can support the body's healing process, they can cure your diseases on but it takes time and effort.</div>
+                </div>
+                <div class="question4-content">
+                    <div class="top-line"></div>
+                    <div class="question">How can I access your services?</div>
+                    <div class="answer">To access our services, you can download our app from the Google Play. Our app provides a comprehensive platform for natural remedies and personalized health recommendations by your AI assistant.</div>
+                </div>
+                <div class="question5-content">
+                    <div class="top-line"></div>
+                    <div class="question">Are we going to replace the allopathic medicines with natural medicines</div>
+                    <div class="answer">No, we are not as it is true that natural medicines can cure every type of diseases and also promote your health for the upcoming strange diseases but it takes time in doing this and at sometime you require the urgent treatment, therefore we are focusing to introduce the natural medicines and urge people to adapt the natural way rather than completely relying on the allopathic medicines</div>
+                    <div class="bottom-line"></div>
+                </div>
+            </div>
+            <a href=#connect class="connect-btn">Contact</a>
+        </div>
+        <!--social section-->
+        <div class="social-section">
+            <div class="text1">Stay Healthy with Our Tips</div>
+            <div class="text2">Follow our health channel for updates</div>
+            <a href="https://www.instagram.com/" class="social-btn" target="_blank">Visit Channel</a>
+        </div>
+
+
+
+
+        <!--connect section-->
+        <div id="connect" class="connect-section">
+            <div class="text">Connect with Us</div>
+            <div class="content1">
+                <img class="connect-img" loading="lazy" src="images/mail.jpg" />
+                <div class="text1">Email</div>
+                <div class="text2">For any inquiries, please mail us.</div>
+                <div class="text3">naturfit.ai@gmail.com</div>
+            </div>
+            <div class="content2">
+                <img class="connect-img" loading="lazy" src="images/phone.jpg" />
+                <div class="text1">Phone</div>
+                <div class="text2">Feel free to give us a call.</div>
+                <div class="text3">+91-8305791500</div>
+            </div>
+            <div class="content3">
+                <img class="connect-img" loading="lazy" src="images/address.jpeg" />
+                <div class="text1">Address</div>
+                <div class="text2">Visit our office.</div>
+                <div class="text3">IIT Delhi, Hauz Khas, South Delhi, Delhi, India (110016)</div>
+            </div>
+            <img class="logo" loading="lazy" src="images/NaturFit.ai logo.png" />
+            <div class="bottom-nav">
+                <div class="nav-text"><a href=#about>About</a></div>
+                <div class="nav-text"><a href=#feature>Feature</a></div>
+                <div class="nav-text"><a href=#company>Company</a></div>
+                <div class="nav-text"><a href=#faq>FAQ</a></div>
+            </div>
+            <div class="end-line"></div>
+            <div class="end-comment">© 2024 NaturFit.ai. All rights reserved.</div>
+        </div>
+    </div>
+</body>
+</html>
